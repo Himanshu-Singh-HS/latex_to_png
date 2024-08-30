@@ -1,0 +1,27 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# Docker artifacts
+docker-compose.override.yml
+*.dockerignore
+Dockerfile
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.pdf
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Other
+*.DS_Store
+*.tmp

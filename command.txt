@@ -1,0 +1,31 @@
+# make sure running  docker desktop in your system 
+# make a docker file 
+
+# then build docker image with the help of dockerfile 
+    # docker build -t imagename .
+
+# list all the docker images 
+    #docker images
+
+
+
+#docker ps
+#docker logs <containerid>
+#docker stop <container_id>
+#docker rmi my-fastapi-app  -- remove an docker image
+
+
+
+
+Run the Docker Container
+Once the image is built, you can run it with:
+
+docker run -d -p 8000:8000 my-fastapi-app
+-d runs the container in detached mode (in the background).
+-p 8000:8000 maps port 8000 on your host to port 8000 in the container
+
+http://localhost:8000
+
+
+docker-compose up
+This command builds the Docker image, creates the container, and starts the FastAPI server with live reloading enabled.
