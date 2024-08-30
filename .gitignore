@@ -4,8 +4,6 @@ __pycache__/
 *.pyo
 
 # Virtual environment
-venv/
-.env/
 env/
 # Docker artifacts
 docker-compose.override.yml
