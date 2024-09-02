@@ -4,6 +4,11 @@
 # then build docker image with the help of dockerfile 
     # docker build -t imagename .
 
+#this command is for run your docker container 
+    # docker run -d -p 8000:8000 imagename
+       - docker run -p 8000:8000 latex 
+       - docker run -d -p 8000:8000 latex   (  running in background# detached mode )
+
 # list all the docker images 
     #docker images
 
@@ -29,3 +34,11 @@ http://localhost:8000
 
 docker-compose up
 This command builds the Docker image, creates the container, and starts the FastAPI server with live reloading enabled.
+
+
+ 
+{
+
+"latex_code": "\\documentclass{article}\\begin{document}Hello,World!\\end{document}"
+
+}
